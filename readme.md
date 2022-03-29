@@ -1,8 +1,10 @@
-# Transgenix SA
-We create a landing page of a page that has the purpose of generating and managing the hours of the employees for a company
+# Trackgenix S.A
+The company Trackgenix SA provides software development services to other companies.
+In the development of a web system which we will call "Trackgenix" that will facilitate the
+registration of hours worked by each employee in each project and work team, we must start with the
+HTML structure of the landing page of the system requested by the company.
 
-To enter the project index, we should download github and download the entire project.
-Both from the index and from the assets.
-Once downloaded, we enter the index directly and it will take us to a page that is without a host.
+## Usage
+To enter the project index, download the entire project from the github repo. Both index and assets. Once downloaded, click on the index and it will open the project on the browser from the local file.
 
-Tomás Alvarez
+_Tomás Alvarez_
