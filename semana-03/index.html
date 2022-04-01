@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css" type="text/css">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
     <title>Trackgenix SA</title>
   </head>
   <body>
-    <header class="header-top">
-      <div class="image-logo">
-        <img src="./Assets/icons/trackgenix-logo.png" alt= "Logo radium" width="50 px">
-      </div>
+    <header>
+      <img src="./Assets/icons/trackgenix-logo.png" alt="Logo radium" width="50 px">
       <h1>Trackgenix SA</h1>
     </header>
     <aside>
@@ -22,16 +23,25 @@
         <li><a href="#">Sing Up</a></li>
         <li><a href="#">Login</a></li>
         <li>Contact Us</li>
-        <li>contact@trackgenx.com</li>
-        <li>(000)000-0000</li>
-        <li>1234 Somewhere Road #8254 Nashville, TN 00000-0000</li>
+        <div class="img-1">
+          <img src="./assets/icons/Icon correo.png" alt="Email">
+          <li>contact@trackgenix.com</li>
+        </div>
+        <div class="img-1">
+          <img src="./assets/icons/Icon.png" alt="">
+          <li>(000)000-0000</li>
+        </div>
+        <div class="img-1">
+          <img src="./assets/icons/Icon casita.png" alt="">
+          <li>1234 Somewhere Road #8254 Nashville, TN 00000-0000</li>
+        </div>
       </ul>
     </aside>
-    <main>
+    <main class="float">
       <section>
         <h2>Manage your hours and teams with ease</h2>
         <h3>Use Trackgenix to track time, make decisions and upgrade your productivity.</h3>
-        <img src="./Assets/images/manage-teams.jpg" alt="Manage Image" width="300 px">
+        <img src="./Assets/images/manage-teams.jpg" alt="Manage Image" width="300 px" class="img-print">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit est officia, similique facere mollitia
           quis praesentium, assumenda tenetur laborum repudiandae ratione. Velit iure sit ex doloremque! Voluptatibus,
@@ -129,7 +139,7 @@
           <label for="#">Im not a robot</label>
           <input type="checkbox" name="Im not a robot">
           <label for="#">Send me a copy</label>
-          <input type=  "checkbox" name="Send me a copy">
+          <input type="checkbox" name="Send me a copy">
           <button>Submit</button>
           <button>Reset</button>
         </form>
@@ -137,7 +147,7 @@
       <section>
         <h3>Our story</h3>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo delectus provident voluptate, quisquam 
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo delectus provident voluptate, quisquam
           ab ipsa asperiores, placeat tempora odio cupiditate iste doloremque, veritatis nobis dolore exercitationem
           non aut rerum nemo?
         </p>
@@ -166,7 +176,7 @@
         </ol>
       </section>
     </main>
-    <footer>
+    <footer class="float">
       <a href="www.github.com"><img src="./Assets/icons/github-logo.png" alt="Github logo"></a>
       <a href="www.instagram.com"><img src="./Assets/icons/instagram-logo.png" alt="instagram-logo"></a>
       <a href="www.facebook.com"><img src="./Assets/icons/fb-logo.png" alt="Facebook logo"></a>

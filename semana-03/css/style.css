@@ -1,10 +1,125 @@
-.header-top {
+.float {
+    float: right;
+    width: 85%;
+
+}
+
+header {
+    position: relative;
     background-color: #373867;
     color: #fff;
     font-family: Roboto;
     size: 40px;
+    height: 77px;
 }
 
-.image-logo {
-    position: relative;
+header img {
+    position: absolute;
+    width: 78px;
+    left: 43px;
+    top: 13px;
+    height: 59px;
 }
+
+header h1 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    left: 147.71px;
+    top: 27.78px;
+    bottom: 11px;
+}
+
+aside {
+    position: fixed;
+    background-color: #AACE9B;
+    color: #373867;
+    height: 100%;
+    width: 184px;
+}
+
+aside h2 {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding: 9px;
+    line-height: 31px;
+    border-bottom: 3px solid #373867;
+    width: 46px;
+    margin-left: 10px;
+}
+
+aside ul li {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'roboto';
+    padding: 13px;
+    border-bottom: 1px solid rgba(55, 56, 103, 0.4);
+    list-style: none;
+    line-height: 26px;
+    width: 120px;
+    margin: 10px;
+}
+
+
+.img-1 {
+    position: relative;
+    left: 0px;
+}
+.img-1 li {
+    border: none;
+    padding: 9px;
+    right: 0px;
+    top: 16px;
+    width: 140px;
+    padding-left: 30px;
+}
+.img-1 img {
+    position: absolute;
+    left: 14px;
+    top: 15px;
+}
+
+.float section h2 {
+    color: #373867;
+    padding: 19px;
+    margin-top: 57px;
+    margin-left: 30px;
+    width: 517px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.float section h3 {
+    color: #373867;
+    padding: 19px;
+    margin-left: 30px;
+    width: 500px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400 regular;
+    font-size: 20px;
+}
+
+.float section p {
+    font-family: 'Roboto';
+    color: #373867;
+    padding: 19px;
+    width: 450px;
+    height: 90px;
+    margin-left: 30px;
+}
+
+.img-print {
+    position: absolute;
+    right: 79px;
+    top: 141px;
+    width: 520px;
+    height: 380px;
+
+}
+
