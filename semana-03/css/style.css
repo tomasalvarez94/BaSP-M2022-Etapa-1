@@ -1,19 +1,23 @@
+body {
+    font-family: 'Roboto';
+}
+
 .float {
     float: right;
     width: 85%;
 
 }
 
-header {
+.title-1 {
     position: relative;
     background-color: #373867;
     color: #fff;
-    font-family: Roboto;
+    font-family: 'Roboto';
     size: 40px;
     height: 77px;
 }
 
-header img {
+.radium {
     position: absolute;
     width: 78px;
     left: 43px;
@@ -21,18 +25,17 @@ header img {
     height: 59px;
 }
 
-header h1 {
+.title-1 h1 {
     position: absolute;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     left: 147.71px;
-    top: 27.78px;
+    top: 25px;
     bottom: 11px;
 }
 
-aside {
+.aside-1 {
     position: fixed;
     background-color: #AACE9B;
     color: #373867;
@@ -43,7 +46,6 @@ aside {
 aside h2 {
     font-weight: 700;
     font-size: 14px;
-    font-family: 'Roboto';
     padding: 9px;
     line-height: 31px;
     border-bottom: 3px solid #373867;
@@ -54,7 +56,6 @@ aside h2 {
 aside ul li {
     font-size: 12px;
     font-weight: 400;
-    font-family: 'roboto';
     padding: 13px;
     border-bottom: 1px solid rgba(55, 56, 103, 0.4);
     list-style: none;
@@ -66,7 +67,8 @@ aside ul li {
 
 .img-1 {
     position: relative;
-    left: 0px;
+    left: 10px;
+
 }
 .img-1 li {
     border: none;
@@ -85,10 +87,9 @@ aside ul li {
 .float section h2 {
     color: #373867;
     padding: 19px;
-    margin-top: 57px;
+    margin-top: 40px;
     margin-left: 30px;
     width: 517px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -99,14 +100,12 @@ aside ul li {
     padding: 19px;
     margin-left: 30px;
     width: 500px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400 regular;
     font-size: 20px;
 }
 
 .float section p {
-    font-family: 'Roboto';
     color: #373867;
     padding: 19px;
     width: 450px;
@@ -114,12 +113,57 @@ aside ul li {
     margin-left: 30px;
 }
 
-.img-print {
+.float .img-print {
     position: absolute;
     right: 79px;
-    top: 141px;
+    top: 150px;
     width: 520px;
     height: 380px;
-
+    border-radius: 5px;
 }
 
+.float .buttom-1 {
+    position: absolute;
+    color: #373867;
+    width: 120px;
+    height: 35px;
+    border: 1px solid #373867;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    left: 570px;
+    top: 470px;
+}
+
+.first-part {
+    padding: 13px;
+    border-bottom: 1px solid rgba(55, 56, 103, 0.4);
+    width: 1000px;
+    height: 489px;
+}
+
+.second-part {
+    padding: 13px;
+    border-bottom: 1px solid rgba(55, 56, 103, 0.4);
+}
+
+.second-part div {
+    width: 45%;
+    display: inline-block
+}
+
+.second-part .first-func h3 {
+    padding-left: 210px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.second-part .first-func img {
+    float: left;
+    margin: 0px 23px 23px 23px;
+}
+
+.second-part .first-func p {
+    font-size: 16px;
+}
