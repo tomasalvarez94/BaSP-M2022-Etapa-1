@@ -152,6 +152,11 @@ aside ul li {
     display: inline-block
 }
 
+.second-part .second-title {
+    font-size: 30px;
+    border-bottom: 1px solid rgba(55, 56, 103, 0.4);
+}
+
 .second-part .first-func h3 {
     padding-left: 210px;
     font-weight: 700;
@@ -166,4 +171,66 @@ aside ul li {
 
 .second-part .first-func p {
     font-size: 16px;
+}
+
+.three-part {
+    padding: 13px;
+    border-bottom: 1px solid rgba(55, 56, 103, 0.4);
+    width: 1110px;
+    height: 1487px;
+}
+
+.three-part .three-insane {
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #373867;
+    border-bottom: 1px solid rgba(55, 56, 103, 0.4);
+    width: 700px;
+
+}
+
+.three-part div {
+    display: inline-block;
+    width: 30%;
+}
+
+.three-part .three-func1 {
+    width: 439px;
+    background-color: #e8e9f4;
+}
+
+.three-part .three-func2 {
+    float: right;
+    padding: 20px;
+    width: 439px;
+    background-color: #e8e9f4;
+}
+
+.three-part .three-func3 {
+    float: left;
+    padding: 20px;
+    width: 439px;
+    background-color: #e8e9f4;
+}
+
+.three-part .three-func4 {
+    float: right;
+    padding: 20px;
+    width: 439px;
+    background-color: #e8e9f4;
+
+}
+
+.three-part .imgpart-1 {
+    margin: 20px;
+    width: 400px;
+    height: 264px;
+}
+
+.three-part .bottom-2 {
+    color: #373867;
+    border: 1px solid #373867;
+    background: #FFFFFF;
+    margin: 20px;
 }
