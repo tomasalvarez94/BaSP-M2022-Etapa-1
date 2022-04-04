@@ -5,11 +5,10 @@ body {
 .float {
     float: right;
     width: 85%;
-
 }
 
 .title-1 {
-    position: relative;
+    z-index: 3;
     background-color: #373867;
     color: #fff;
     font-family: 'Roboto';
@@ -64,12 +63,11 @@ aside ul li {
     margin: 10px;
 }
 
-
 .img-1 {
     position: relative;
     left: 10px;
-
 }
+
 .img-1 li {
     border: none;
     padding: 9px;
@@ -78,6 +76,7 @@ aside ul li {
     width: 140px;
     padding-left: 30px;
 }
+
 .img-1 img {
     position: absolute;
     left: 14px;
@@ -174,10 +173,12 @@ aside ul li {
 }
 
 .three-part {
-    padding: 13px;
+    padding: 5px;
     border-bottom: 1px solid rgba(55, 56, 103, 0.4);
-    width: 1110px;
-    height: 1487px;
+    width: 1000px;
+    height: 1250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .three-part .three-insane {
@@ -195,42 +196,88 @@ aside ul li {
     width: 30%;
 }
 
+.three-part .imgpart-1 {
+    width: 400px;
+    height: 264px;
+    border-radius: 5px;
+}
+
 .three-part .three-func1 {
     width: 439px;
     background-color: #e8e9f4;
+    padding: 2%;
+    margin-bottom: 30px;
+}
+
+.three-part .p-booster {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three-part .three-func1 p {
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .three-part .three-func2 {
     float: right;
-    padding: 20px;
+    padding: 2%;
     width: 439px;
     background-color: #e8e9f4;
+}
+
+.three-part .p-booster{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three-part .three-func2 p {
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .three-part .three-func3 {
     float: left;
-    padding: 20px;
+    padding: 2%;
     width: 439px;
     background-color: #e8e9f4;
+}
+
+.three-part .p-booster{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three-part .three-func3 p {
+   margin-left: auto;
+   margin-right: auto;
+   
 }
 
 .three-part .three-func4 {
     float: right;
-    padding: 20px;
+    padding: 2% ;
     width: 439px;
     background-color: #e8e9f4;
 
 }
 
-.three-part .imgpart-1 {
-    margin: 20px;
-    width: 400px;
-    height: 264px;
+.three-part .p-booster{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three-part .three-func4 p {
+   margin-left: auto;
+   margin-right: auto;
+   
 }
 
 .three-part .bottom-2 {
+    width: 75px;
+    height: 38px;
     color: #373867;
     border: 1px solid #373867;
     background: #FFFFFF;
-    margin: 20px;
+    border-radius: 5px;
 }
