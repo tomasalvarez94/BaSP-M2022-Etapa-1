@@ -222,136 +222,64 @@ aside .img-1 {
 }
 
 .three-part {
-    border-bottom: 1px solid rgba(55, 56, 103, 0.4);
     width: 1110px;
     height: 1487px;
+    border-bottom: 2px solid #AFAFC2;
     margin-bottom: 57px;
 }
 
 .title-tp {
     font-size: 30px;
-    margin-bottom: 20px;
     margin-top: 57px;
+    margin-bottom: 20px;
 }
 
-.three-part div {
-    display: inline-block;
-    width: 30%;
+.box-color-tp {
+    width: 700px;
+    height: 3px;
+    border-radius: 10px;
+    margin-bottom: 48px;
+    background-color: #aace9b;
 }
 
-.three-part .imgpart-1 {
+.card {
+    position: relative;
+    width: 400px;
+    height: 581px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgb(55, 56, 103, 10%);
+}
+
+.title-tp {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-2 {
+    font-size: 20px;
+}
+
+.imgpart-1 {
     width: 400px;
     height: 264px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-.three-part .three-func1 {
-    width: 439px;
-    background-color: #e8e9f4;
-    padding: 2%;
-    margin-bottom: 30px;
-}
-
-.three-part .p-booster {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.three-part .three-func1 p {
-   margin-left: auto;
-   margin-right: auto;
-}
-
-.three-part .three-func2 {
-    float: right;
-    padding: 2%;
-    width: 439px;
-    background-color: #e8e9f4;
-}
-
-.three-part .p-booster{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.three-part .three-func2 p {
-   margin-left: auto;
-   margin-right: auto;
-}
-
-.three-part .three-func3 {
-    float: left;
-    padding: 2%;
-    width: 439px;
-    background-color: #e8e9f4;
-}
-
-.three-part .p-booster{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.three-part .three-func3 p {
-   margin-left: auto;
-   margin-right: auto;
-   
-}
-
-.three-part .three-func4 {
-    float: right;
-    padding: 2% ;
-    width: 439px;
-    background-color: #e8e9f4;
-
-}
-
-.three-part .p-booster{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.three-part .three-func4 p {
-   margin-left: auto;
-   margin-right: auto;
-   
-}
-
-.three-part .bottom-2 {
+.button-card {
     position: absolute;
-    width: 78px;
+    width: 75px;
     height: 38px;
-    color: #373867;
-    border: 1px solid #373867;
-    background: #FFFFFF;
-    box-sizing: border-box;
     border-radius: 5px;
-    margin-top: -20px;
+    bottom: 20px;
 }
 
-.form-1 {
-    padding: 5px;
-    border-bottom: 1px solid rgba(55, 56, 103, 0.4);
-    width: 1000px;
-    height: 1250px;
-    margin-left: auto;
-    margin-right: auto;
+.three-func-left {
+    float: left;
 }
 
-.form-0 .getin-1 {
-    padding: 50px;
-    font-size: 30px;
-    font-weight: 700;
-    color: #373867;
-    border-bottom: 1px solid rgba(55, 56, 103, 0.4);
-    width: 700px;
+.three-func-right {
+    float:right
 }
 
-.form-1 div {
-    width: 45%;
-    display: inline-block
-}
-
-.form-1 .formular-1 {
-    width: 527.04px;
-    height: 50.12px;
-}
