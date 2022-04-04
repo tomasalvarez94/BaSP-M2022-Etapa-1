@@ -1,4 +1,5 @@
 body {
+    width: 1440px;
     font-family: 'Roboto';
     color: #373867;
 }
@@ -108,44 +109,31 @@ aside .img-1 {
 }
 
 .first-part {
-    border-bottom: 2px solid rgba(55, 56, 103, 0.4);
     height: 482px;
+    border-bottom: 2px solid #373867;
 }
 
-.first-part h2 {
-    color: #373867;
-    padding: 19px;
-    margin-top: 40px;
-    margin-left: 30px;
-    width: 517px;
-    font-weight: 700;
+.container-fp {
+    display: inline;
+    width: 50%;
+    height: 387px;
+    float: left;
+}
+
+.container-fp .title-fp {
     font-size: 40px;
+    margin-bottom: 19.16px;
 }
 
-.first-part h3 {
-    color: #373867;
-    padding: 19px;
-    margin-left: 30px;
-    width: 500px;
-    font-weight: 400 regular;
+.container-fp .subtitle-fp {
     font-size: 20px;
+    margin-bottom: 42.14px;
 }
 
-.first-part p {
-    color: #373867;
-    padding: 19px;
-    width: 450px;
-    height: 90px;
-    margin-left: 30px;
-}
-
-.first-part .img-print {
-    position: absolute;
-    right: 79px;
-    top: 150px;
-    width: 520px;
-    height: 380px;
-    border-radius: 5px;
+.container-fp p {
+    font-size: 15px;
+    margin-bottom: 18.7px;
+    width: 516.53px;
 }
 
 .first-part .buttom-1 {
@@ -161,14 +149,22 @@ aside .img-1 {
     top: 470px;
 }
 
+.img-print {
+    display: inline;
+    width: 520px;
+    height: 387px;
+    border-radius: 10px;
+    float: right;
+}
+
 .second-part {
     margin-top: 57px;
     width: 1130px;
     height: 698px;
-    border-bottom: 2px solid rgba(55, 56, 103, 0.4);
+    border-bottom: 2px solid #AFAFC2;
 }
 
-.second-part .box-color {
+.box-color {
     background-color: #aace9b;
     width: 234px;
     height: 3px;
@@ -181,26 +177,48 @@ aside .img-1 {
     margin-bottom: 15px;
 }
 
-.second-part div {
-    width: 45%;
-    display: inline-block
+.first-func {
+    width: 534px;
+    height: 213px;
 }
 
-
-.second-part .first-func h3 {
-    padding-left: 210px;
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 40px;
-}
-
-.second-part .first-func img {
+.first-sp {
+    width: 536px;
+    height: 505px;
     float: left;
-    margin: 0px 23px 23px 23px;
 }
 
-.second-part .first-func p {
-    font-size: 16px;
+.second-sp {
+    width: 536px;
+    height: 505px;
+    float: right;
+}
+
+.second-func {
+    width: 536px;
+    height: 505px;
+    float: right;
+}
+
+.text-func-0 {
+    display: inline-block;
+    width: 314px;
+    height: 144px;
+    padding-top: 40px;
+}
+
+.img-fp {
+    width: 140px;
+    height: 140px;
+    display: inline;
+    float: left;
+    text-align: center;
+    margin-right: 23px;
+}
+
+.subtitle-sp {
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
 .three-part {
