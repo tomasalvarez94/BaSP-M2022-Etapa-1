@@ -1,16 +1,20 @@
 body {
-    width: 1440px;
+    width: 100%;
     font-family: 'Roboto';
     color: #373867;
 }
 
 main {
-    width: 1110px;
+    width: 78%;
     display: inline;
     float: right;
     padding-left: 68px;
     padding-right: 78px;
     padding-top: 57px;
+}
+
+button {
+    cursor: pointer;
 }
 
 .title-1 {
@@ -39,7 +43,7 @@ main {
 }
 
 aside {
-    position: sticky;
+    position: fixed;
     display: inline-block;
     background-color: #aace9b;
     width: 158px;
@@ -49,22 +53,22 @@ aside {
 
 aside .first-menu {
     margin-bottom: 13px;
-    padding-bottom: 13px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #373867;
 }
 
 aside span {
     display: inline-block;
-    font-size: larger;
+    font-size: 14px;
+    font-weight: 700;
     color: #373867;
-    margin-bottom: 13px;
+    margin-bottom: 20px;
 }
 
 aside .line-2 {
-    width: 100px;
+    width: 50px;
     height: 4px;
-    border-radius: 60px;
-    margin-bottom: 13px;
+    margin-bottom: 23px;
     background-color: #373867;
 }
 
@@ -94,7 +98,7 @@ aside .list-2 {
     display: inline-block;
     font-size: 12px;
     color: #373867;
-    margin-bottom: 13px;
+    margin-bottom: 23px;
 }
 
 .sub-menu p {
@@ -108,7 +112,7 @@ aside .img-1 {
 
 .first-part {
     height: 482px;
-    border-bottom: 2px solid #373867;
+    border-bottom: 1px solid #aace9b;
 }
 
 .container-fp {
@@ -147,6 +151,11 @@ aside .img-1 {
     top: 470px;
 }
 
+.first-part .buttom-1 a {
+    text-decoration: none;
+    color: #373867;
+}
+
 .img-print {
     display: inline;
     width: 520px;
@@ -159,7 +168,7 @@ aside .img-1 {
     margin-top: 57px;
     width: 1130px;
     height: 698px;
-    border-bottom: 2px solid #AFAFC2;
+    border-bottom: 1px solid #AFAFC2;
 }
 
 .box-color {
@@ -171,6 +180,7 @@ aside .img-1 {
 }
 
 .second-part h2 {
+    font-weight: 700;
     font-size: 30px;
     margin-bottom: 15px;
 }
@@ -178,6 +188,7 @@ aside .img-1 {
 .first-func {
     width: 534px;
     height: 213px;
+    margin-top: 40px;
 }
 
 .first-sp {
@@ -215,21 +226,25 @@ aside .img-1 {
 }
 
 .subtitle-sp {
+    padding-bottom: 10px;
     margin-bottom: 10px;
     font-size: 30px;
+    font-weight: 700;
 }
 
 .three-part {
-    width: 1110px;
+    width: 95%;
     height: 1487px;
-    border-bottom: 2px solid #AFAFC2;
+    border-bottom: 1px solid #AFAFC2;
     margin-bottom: 57px;
 }
 
 .title-tp {
+    font-weight: 700;
     font-size: 30px;
     margin-top: 57px;
     margin-bottom: 20px;
+    padding-top: 23px;
 }
 
 .box-color-tp {
@@ -251,8 +266,8 @@ aside .img-1 {
 
 .title-tp {
     font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .text-2 {
@@ -269,6 +284,8 @@ aside .img-1 {
     position: absolute;
     width: 75px;
     height: 38px;
+    color: #373867;
+    border: 1px solid #373867;
     border-radius: 5px;
     bottom: 20px;
 }
@@ -284,7 +301,7 @@ aside .img-1 {
 .fourth-part {
     width: 1110px;
     height: 638px;
-    border-bottom: 2px solid rgb(55, 56, 103, 10%);
+    border-bottom: 2px solid #aace9b;
     margin-bottom: 57px;
 }
 
@@ -310,12 +327,14 @@ aside .img-1 {
     display: block;
     width: 100%;
     margin-top: 7px;
+    padding: 2px;
 }
 
 .fp-selec {
     display: block;
     width: 100%;
     margin-top: 7px;
+    padding: 3px;
 }
 
 .form-fp-two {
@@ -328,6 +347,7 @@ aside .img-1 {
     display: block;
     width: 100%;
     margin-top: 7px;
+    padding: 2px;
 }
 
 .fp-radio {
@@ -362,6 +382,7 @@ aside .img-1 {
     width: 113px;
     height: 47px;
     background-color: #aace9b;
+    border: 1px solid #373867;
     border: none;
     border-radius: 5px;
 }
@@ -369,7 +390,9 @@ aside .img-1 {
 .fp-reset {
     width: 113px;
     height: 47px;
+    color: #373867;
     background-color: #ffffff;
+    border: 1px solid #373867;
     border-radius: 5px;
     margin-left: 42.25px;
     margin-bottom: 10px;
@@ -381,7 +404,7 @@ aside .img-1 {
 .dif-products {
     width: 1110px;
     height: 267px;
-    border-top: 3px solid #373867;
+    border-top: 1px solid #aace9b;
 }
 
 .products-1 {
@@ -393,13 +416,29 @@ aside .img-1 {
     margin-left: 100px;
 }
 
-.footer {
-    display: inline-block;
+.fifth-part {
     width: 1110px;
+    height: 448px;
+    margin-bottom: 57px;
+}
+
+.title-fp {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 13px;
+}
+
+.fifth-part p {
+    margin-top: 50px;
+}
+
+footer {
+    float: right;
+    width: 83%;
+    display: inline-block;
     height: 97px;
-    border-top: 3px solid #aace9b;
-    margin-right: 78px;
-    margin-left: 251px;
+    border-top: 1px solid #aace9b;
 }
 
 .conections-1 {
@@ -409,12 +448,14 @@ aside .img-1 {
 }
 
 .icon-f {
-    height: 40px;
+    position: relative;
+    left: 0px;
     width: 40px;
-    margin-right: 20px;
+    padding-right: 33px;
 }
 
 .last-text {
     float: right;
-    margin: 40px 12px 0px 297.74px;
+    margin: 60px 62px 0px 297.74px;
+    text-align: right;
 }
