@@ -94,6 +94,10 @@ aside .list-2 {
     margin-bottom: 35px;
 }
 
+.sub-menu p {
+    display: inline-block;
+}
+
 .contact-a1 {
     display: inline-block;
     font-size: 12px;
@@ -101,13 +105,10 @@ aside .list-2 {
     margin-bottom: 23px;
 }
 
-.sub-menu p {
-    display: inline;
-}
-
 aside .img-1 {
     display: inline;
     width: 16px;
+    vertical-align: top;
 }
 
 .first-part {
@@ -300,13 +301,15 @@ aside .img-1 {
 
 .fourth-part {
     width: 1110px;
-    height: 638px;
+    height: 600px;
     border-bottom: 2px solid #aace9b;
     margin-bottom: 57px;
+    font-weight: 600;
 }
 
 .title-fp {
     font-size: 30px;
+    border-bottom: 2px solid #aace9b;
 }
 
 .box-color-fp {
@@ -448,14 +451,12 @@ footer {
 }
 
 .icon-f {
-    position: relative;
-    left: 0px;
-    width: 40px;
-    padding-right: 33px;
+    padding: 12px;
+    
 }
 
 .last-text {
     float: right;
-    margin: 60px 62px 0px 297.74px;
-    text-align: right;
+    padding-top: 40px;
 }
+
