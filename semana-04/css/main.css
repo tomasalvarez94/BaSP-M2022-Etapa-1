@@ -9,7 +9,7 @@
     justify-content: center;
     align-self: center;
     margin-bottom: 1.375rem;
-    border-bottom: 0.2px solid #AFAFC2;
+    border-bottom: 0.2rem solid #AFAFC2;
 }
 
 .main-1 .img-1 {
@@ -77,26 +77,54 @@
 }
 
 .imgpart-1 {
-    width: 21em;
-    height: 15em;
-    padding: 1.2em;
-    border-radius: 1.5em;
+    border-radius: 0.5em;
+}
+
+.second-part {
+		padding-bottom: 3rem;
+		margin-bottom: 3rem;
+    border-bottom: 0.2rem solid #AFAFC2; 
+}
+
+.three-part {
+	padding-bottom: 3rem;
+	margin-bottom: 3rem;
+	border-bottom: 0.2rem solid #AFAFC2; 
+}
+
+.three-part h2 {
+    width: 18rem;
+    font-weight: 700;
+    font-size: 1.375em;
+    border-bottom: 2px solid #AFAFC2;
+		margin-bottom: 3rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
     background-color: rgb(55, 56, 103, 10%);
+		margin: 1.9rem 0;
+		padding: 1.375rem;
 }
 
 .title-tp {
-    font-size: 1.375em;
+    font-size: 0.9rem;
     font-weight: 700;
-    padding: 0.8em;
+		margin: 1.375rem 0 1.375rem;
 }
 
 .text-2 {
-    font-size: 1.375;
+    font-size: 0.9rem;
+}
+
+.button-card {
+	width: 7em;
+	height: 3.4em;
+	border: 1px solid #373867;
+	box-sizing: border-box;
+	border-radius: 0.4em;
+	margin: 1em 0 1.9em;
+	font-size: 0.7em;
 }
