@@ -2,3 +2,9 @@ body {
     font-family: 'Roboto', 'sans-serif';
     color: #373867;
 }
+
+.second-part , .three-part {
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 0.2rem solid #AFAFC2; 
+}

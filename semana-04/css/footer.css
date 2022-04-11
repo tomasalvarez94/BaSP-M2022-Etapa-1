@@ -1,0 +1,17 @@
+.conections-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.last-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.last-text p {
+    padding: 0.5rem;
+}

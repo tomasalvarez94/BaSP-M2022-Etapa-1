@@ -21,9 +21,9 @@
 
 .main-1 h2 {
     font-weight: 700;
-    font-size: 1.25em;
-    margin: 0.6em 0 0.2em 0;
-    width: 80%;
+    font-size: 1.8rem;
+    margin: 0.6em 0 0rem 0;
+    width: 100%;
     line-height: 1.25em;
 }
 
@@ -31,15 +31,24 @@
     margin-bottom: 0.8em;
 }
 
-.buttom-1 {
-    width: 7em;
-    height: 3.4em;
+.main-1 button {
+    width: 6rem;
+    height: 2.8rem;
     border: 1px solid #373867;
+    color:#373867;
     background: #FFFFFF;
     box-sizing: border-box;
     border-radius: 0.4em;
-    margin: 1em 0 1.9em;
+    margin: 1.1rem 0 2rem;
     font-size: 0.7em;
+}
+
+.second-part h2 {
+    width: 7em;
+    font-weight: 700;
+    font-size: 1.375em;
+    padding: 0.8em;
+    border-bottom: 2px solid #AFAFC2;
 }
 
 .first-func {
@@ -51,12 +60,15 @@
     padding: 0.8em;
 }
 
-.second-part h2 {
-    width: 7em;
-    font-weight: 700;
-    font-size: 1.375em;
+.img-sp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 140px;
+    height: 140px;
+    max-width: max-content;
     padding: 0.8em;
-    border-bottom: 2px solid #AFAFC2;
 }
 
 .subtitle-sp {
@@ -65,39 +77,13 @@
     padding: 0.8em;
 }
 
-.img-sp {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    width: 100%;
-    height: auto;
-    max-width: max-content;
-    padding: 0.8em;
-}
-
-.imgpart-1 {
-    border-radius: 0.5em;
-}
-
-.second-part {
-		padding-bottom: 3rem;
-		margin-bottom: 3rem;
-    border-bottom: 0.2rem solid #AFAFC2; 
-}
-
-.three-part {
-	padding-bottom: 3rem;
-	margin-bottom: 3rem;
-	border-bottom: 0.2rem solid #AFAFC2; 
-}
-
 .three-part h2 {
     width: 18rem;
     font-weight: 700;
     font-size: 1.375em;
     border-bottom: 2px solid #AFAFC2;
-		margin-bottom: 3rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1.2rem;
 }
 
 .card {
@@ -105,21 +91,26 @@
     flex-direction: column;
     justify-content: space-around;
     background-color: rgb(55, 56, 103, 10%);
-		margin: 1.9rem 0;
-		padding: 1.375rem;
+    margin: 1.9rem 0;
+    padding: 1.375rem;
+}
+
+.imgpart-1 {
+    width: 100%;
+    border-radius: 0.5em;
 }
 
 .title-tp {
     font-size: 0.9rem;
     font-weight: 700;
-		margin: 1.375rem 0 1.375rem;
+	margin: 1.375rem 0 1.375rem;
 }
 
 .text-2 {
     font-size: 0.9rem;
 }
 
-.button-card {
+.card button {
 	width: 7em;
 	height: 3.4em;
 	border: 1px solid #373867;
@@ -128,3 +119,127 @@
 	margin: 1em 0 1.9em;
 	font-size: 0.7em;
 }
+
+.fourth-part {
+    padding-bottom: 1.5rem;
+	margin-bottom: 3rem;
+    border-bottom: 2px solid #AFAFC2;
+}
+
+.fourth-part h2 {
+    width: 15rem;
+    font-weight: 700;
+    font-size: 1.375em;
+    border-bottom: 2px solid #AFAFC2;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.inputs-fp {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-fp input , .inputs-fp select {
+    margin-top: 0.3rem;
+    margin-bottom: 0.6rem;
+    padding: 3px;
+}
+
+.inputs-fp label , .fp-radio span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.fp-radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ask-fp {
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+}
+
+.fp-textarea {
+    height: 110px;
+    border-radius: 0.2rem;
+}
+
+.inputs-2 {
+    display:flex;
+    justify-content: space-between;
+}
+
+.inputs-2 div {
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 2rem 0;
+}
+
+.inputs-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.submit-fp {
+    width: 7em;
+    height: 3.4em;
+    border: 1px solid #373867;
+    color: #373867;
+    background: #aace9b;
+    box-sizing: border-box;
+    border-radius: 0.4em;
+    margin: 1em 0 1.9em;
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.fp-reset {
+    width: 7em;
+    height: 3.4em;
+    border: 1px solid #373867;
+    color: #373867;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 0.4em;
+    margin: 1em 0 1.9em;
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.fifth-part {
+    padding-bottom: 1.5rem;
+	margin-bottom: 3rem;
+    border-bottom: 2px solid #AFAFC2;
+}
+
+.fifth-part h2 {
+    width: 7rem;
+    font-weight: 700;
+    font-size: 1.375em;
+    border-bottom: 2px solid #AFAFC2;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.dif-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
+    border-bottom: 5px solid #AACE9B;
+}
+
+.products-1 {
+    padding: 0;
+    margin: 0.8rem 0;
+    width: 30%;
+}
+
+@media (min-width: 768px) {
+    
