@@ -15,3 +15,26 @@
 .last-text p {
     padding: 0.5rem;
 }
+
+@media (min-width: 768px) {
+
+    .conections-1{
+        justify-content: flex-start;
+}
+
+    .conections-1 .icon-f {
+        padding-right: 2.5rem;
+    }
+
+    .last-text {
+        align-items: flex-start;
+    }
+
+    .last-text p {
+        padding: 0;
+        margin: 0.6rem 0;
+    }
+
+    .last-text2 {
+        display: flex;
+    }

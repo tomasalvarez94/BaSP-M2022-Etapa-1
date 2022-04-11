@@ -242,4 +242,73 @@
 }
 
 @media (min-width: 768px) {
-    
+    .first-func {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .subtitle-sp {
+        padding: 0;
+    }
+
+    .three-part h2 {
+        width: 552px;
+    }
+
+    .text-func-0 {
+        text-align: left;
+        margin-top: 3rem;
+    }
+
+    .three-func-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 40%;
+    }
+
+    .section-3 form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .section-3 .inputs-fp {
+        width: 48%;
+    }
+
+    .st-01 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .inputs-2 {
+        width: 35%;
+    }
+
+    .inputs-button {
+        width: 35%;
+    }
+
+    .st-01 .inputs-fp {
+        width: 100%;
+        align-self: flex-start;
+    }
+
+    .dif-products {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 0.8rem;
+    }
+
+    .products-1 {
+        width: auto;
+    }
