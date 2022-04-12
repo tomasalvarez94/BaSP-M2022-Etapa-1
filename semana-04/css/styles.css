@@ -9,3 +9,19 @@ body {
     margin-bottom: 3rem;
     border-bottom: 0.2rem solid #AFAFC2; 
 }
+
+.part-1 {
+    display:flex;
+}
+
+.part-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+    .part-2 {
+    margin-left: 184px;
+    }
+}

@@ -6,8 +6,50 @@ aside {
 
     aside {
     display: flex;
+    position:fixed;
     flex-direction: column;
+    top: 4rem;
+    }
+
+    aside {
+        background-color: #aace9b;
+        width: 164px;
+        height: 800px;
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    aside span {
+        font-size: 14px;
+        font-weight: 700;
+        width: 2.8rem;
+        color: #373867;
+        padding-bottom: 1.325rem;
+        border-bottom: 4px solid #373867;
+    }
+
+    .part-1 ul {
+        padding-top: 1.325rem;
+    }
+
+    aside .first-menu {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #373867;
+    }
+
+    .menu-part {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menu-text {
+        padding: 0.5rem 0.8rem;
+    }
+
+    .img-menu {
+        padding: 0.6rem 0;
+    }
 }
 
 
-@media (min-width: 1024px) {

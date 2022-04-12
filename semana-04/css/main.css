@@ -15,7 +15,6 @@
 .main-1 .img-1 {
     align-self: center;
     width: 100%;
-    margin-top: 60px;
     border-radius: 5px;
 }
 
@@ -255,8 +254,8 @@
     }
 
     .first-func {
-    flex-direction: row;
-    justify-content: flex-start;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 
     .subtitle-sp {
@@ -317,6 +316,11 @@
 
 @media (min-width: 768px) {
     
-    .section-2 {
-        flex-direction: row;
+    .first-func2 {
+        display:flex;
     }
+
+    .first-func {
+        width: 45%;
+    }
+}
