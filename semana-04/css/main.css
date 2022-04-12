@@ -97,7 +97,7 @@
 
 .imgpart-1 {
     width: 100%;
-    border-radius: 0.5em;
+    border-radius: 0.5rem;
 }
 
 .title-tp {
@@ -241,10 +241,22 @@
     width: 30%;
 }
 
-@media (min-width: 768px) {
-    .first-func {
+@media (min-width: 480px) {
+
+    .three-func-left {
+        display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 35%;
+    }
+
+    .first-func {
+    flex-direction: row;
+    justify-content: flex-start;
     }
 
     .subtitle-sp {
@@ -258,17 +270,6 @@
     .text-func-0 {
         text-align: left;
         margin-top: 3rem;
-    }
-
-    .three-func-left {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .card {
-        width: 40%;
     }
 
     .section-3 form{
@@ -293,7 +294,7 @@
     .inputs-2 {
         width: 35%;
     }
-
+    
     .inputs-button {
         width: 35%;
     }
@@ -308,8 +309,14 @@
         justify-content: space-evenly;
         margin-bottom: 0.8rem;
     }
-
+    
     .products-1 {
         width: auto;
     }
 }
+
+@media (min-width: 768px) {
+    
+    .section-2 {
+        flex-direction: row;
+    }
