@@ -4,6 +4,11 @@ body {
     display: flex;
 }
 
+.conteiner {
+    width: 90%;
+    margin: auto;
+}
+
 .second-part , .three-part {
     padding-bottom: 3rem;
     margin-bottom: 3rem;
